@@ -21,7 +21,6 @@ var url = process.env.DATABASEURL || 'mongodb://localhost/inkedQuill';
 var port = process.env.PORT || '8000';
 var ip = process.env.IP || '0.0.0.0';
 mongoose.connect(url);
-// mongoose.connect("mongodb://shankar:password@ds133360.mlab.com:33360/cholorem");
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + "/public"));
