@@ -19,3 +19,11 @@
     height: 400px;
     width: 100%;
 }
+
+.code {
+    display: inline;
+    padding: 0.5%;
+    border-radius: 5px;
+    font-family: Courier New, monospace;
+    background-color: 	#e9eaeb
+}
